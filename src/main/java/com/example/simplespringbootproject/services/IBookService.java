@@ -9,4 +9,6 @@ import java.util.List;
 public interface IBookService {
 
     List<Book> getAllBooks();
+    Book getBookById(int id);
+    List<Book> search(String title);
 }
